@@ -1,0 +1,33 @@
+getgenv().Fatality = {
+    Underground = {
+        ["Enabled"] = true,
+        ["Amount"] = 1000,
+        ["Keybind"] = "X",
+    },
+    Sky = {
+        ["Enabled"] = true,
+        ["Amount"] = 1000,
+        ["Keybind"] = "C",
+    },
+    CustomVelocity = {
+        ["Enabled"] = true,
+        ["CustomX"] = 16384,
+        ["CustomY"] = 16384,
+        ["CustomZ"] = 16384,
+        ["Keybind"] = "V",
+    },
+    AimViewer = {
+        ["Enabled"] = true,
+        ["RainbowBeam"] = true,
+        ["ViewTarget"] = true,
+        ["ViewPOV"] = true,
+        ["Notifications"] = true,
+        ["Width"] = 0.3,
+        ["Material"] = "Neon",
+        ["Keybind"] = "T",
+        ["Method"] = "MousePos", -- only change this if u know what ur doing
+        ["Color"] = Color3.fromRGB(128, 225, 255),
+    },
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tailgater/Fatality/main/StandaloneAntiLock%22))()
